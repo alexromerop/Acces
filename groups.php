@@ -22,10 +22,10 @@ $content = <<<EOD
 <p><label for="course">Course</label><input type="text" name="course" id="course" /></p>
 <p><label for="jamyear">Jam Year</label><input type="text" name="jamyear" id="jamyear" /></p>
 <p><label for="mark">Mark</label><input type="text" name="mark" id="mark" /></p>
-<p><input type="submit" value="Create group"/></p>
+<p><input type="submit" value="Create"/></p>
 EOD;
 
-showHeader("ENTIenda ADMIN - GROUPS");
+showHeader("ENTIenda: GROUPS");
 showContent($content);
 showFooter();
 ?>
